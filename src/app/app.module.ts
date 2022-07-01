@@ -34,7 +34,8 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
       auth: {
         clientId: environment.MSAL.clientId,
         authority: environment.MSAL.authority,
-        redirectUri: environment.MSAL.redirectUri
+        redirectUri: environment.MSAL.redirectUri,
+        postLogoutRedirectUri: environment.MSAL.postLogoutRedirectUri
       },
       cache: {
         cacheLocation: 'localStorage',
