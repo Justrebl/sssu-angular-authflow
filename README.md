@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Automatizing Static Web App Deployment 
+
+Github Build & Deploy Workflow - Working configurations :  
+app_location: "/" # App source code path
+api_location: "" # Api source code path - optional - empty won't build the API
+output_location: "src/dist/sssu-angular-authflow" - relative to app_location above
