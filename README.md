@@ -29,6 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Automatizing Static Web App Deployment 
 
 Github Build & Deploy Workflow - Working configurations :  
-app_location: "/" # App source code path
-api_location: "" # Api source code path - optional - empty won't build the API
-output_location: "src/dist/sssu-angular-authflow" - relative to app_location above
+app_location: "/" # App source code path  
+api_location: "" # Api source code path - optional - empty won't build the API  
+output_location: "src/dist/sssu-angular-authflow" - relative to app_location above  
